@@ -1,5 +1,7 @@
 <template>
-    <Bar :data="data" :options="options" />
+    <div class="chart-container">
+        <Bar :data="data" :options="options" />
+    </div>
   </template>
   
   <script lang="ts">
@@ -27,4 +29,11 @@
     }
   }
   </script>
+
+<style>
+.chart-container {
+  width: 500px; /* Set the desired width */
+  height: 300px; /* Set the desired height */
+}
+</style>
   
