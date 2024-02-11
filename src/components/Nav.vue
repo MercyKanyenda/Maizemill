@@ -11,21 +11,13 @@
                 Log Out
             </v-btn>
         </nav>
-        <div class="buttons">
-            <v-btn>
-                Add to inventory
-            </v-btn>
-            <v-btn>
-                Sale
-            </v-btn>
-        </div>
-        
 </template>
 <style scoped>
     .navigation{
         display: flex;
         justify-content: space-between;
         align-items: center;
+        margin-bottom: 3rem;
     }
     .navigation-items{
         display: flex;
